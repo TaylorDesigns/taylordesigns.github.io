@@ -9,6 +9,11 @@
     cursor:pointer;
 }
 
+.cap
+{
+    text-align: center;
+}
+
 #nav_mobile
 {
  display:none;   
