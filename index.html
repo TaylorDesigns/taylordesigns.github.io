@@ -21,6 +21,7 @@
     
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
     <script>
+        
         //For Scrolling Anchors & Navigation
             $(function() {
               $('a[href*=#]:not([href=#])').click(function() {
@@ -29,7 +30,7 @@
                   target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
                   if (target.length) {
                     $('html,body').animate({
-                      scrollTop: target.offset().top //- 30
+                      scrollTop: target.offset().top - 60
                     }, 1000);
                     return false;
                   }
@@ -41,6 +42,7 @@
     </script>
 </head>
 <body id="top">
+    <!--<div id="topBar"></div>-->
     <div class="navbar navbar-inverse navbar-fixed-top">
           <div id="navbar" class="container-fluid" style="padding:6px 30px 6px 30px"> <!--padding same as h2-->
             <div class="navbar-header">
@@ -115,8 +117,8 @@
 });</script>
             </div>
         </div>
-        <div id="about" class="row">
-            <div class="row">
+        <div class="row">
+            <div id="about" class="row">
                      <div class="col-xs-12 col-sm-12 col-md-12">
                             <h2>About Taylor Designs</h2>
                     </div>

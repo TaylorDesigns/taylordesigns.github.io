@@ -23,6 +23,13 @@ h2
     font-size:24px;
 }
 
+#topBar
+{
+    height:65px;
+    background-color:#101010;
+    width:100%;
+}
+
 #about
 {
     /*background-color:#101010;
@@ -57,7 +64,7 @@ body
 }
 
 .navbar {
-   background-color: rgba(0,0,0,0.8);
+   background-color: rgba(0,0,0,1);
    /*background: transparent;*/
 }
 
